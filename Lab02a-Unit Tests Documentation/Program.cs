@@ -6,7 +6,25 @@ namespace Lab02a_Unit_Tests_Documentation
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+           
+        }
+
+        //ViewBalance
+        public static decimal ViewBalance(int num)
+        {
+
+        }
+
+        //Withdraw
+        public static decimal Withdraw()
+        {
+
+        }
+
+        //Deposit
+        public static decimal Deposit()
+        {
+
         }
     }
 }
