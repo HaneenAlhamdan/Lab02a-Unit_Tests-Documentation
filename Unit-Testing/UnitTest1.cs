@@ -28,4 +28,5 @@ namespace Unit_Testing
         {
             Assert.Equal(Program.balance, Program.Withdraw(-4));
         }
+    }
 }
