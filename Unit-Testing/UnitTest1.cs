@@ -10,6 +10,7 @@ namespace Unit_Testing
 
         [Fact]
         public void Test_deposit_less_than_zero()
+
         {
             Assert.Equal(Program.balance, Program.Deposit(-99));
         }
@@ -27,5 +28,9 @@ namespace Unit_Testing
         public void Test_withdraw_less_thanz_ero()
         {
             Assert.Equal(Program.balance, Program.Withdraw(-4));
+
         }
+
+    }
+
 }
