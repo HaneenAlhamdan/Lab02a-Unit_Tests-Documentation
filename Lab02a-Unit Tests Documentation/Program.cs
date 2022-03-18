@@ -2,7 +2,7 @@
 
 namespace Lab02a_Unit_Tests_Documentation
 {
-    class Program
+   public class Program
     {
          public static decimal balance = 0;
 
