@@ -7,6 +7,11 @@ namespace Unit_Testing
 {
     public class UnitTest1
     {
+        [Fact]
+        public void Test_view_balance()
+        {
+            Assert.Equal(Program.balance, Program.ViewBalance());
+        }
 
         [Fact]
         public void Test_deposit_less_than_zero()
@@ -27,7 +32,7 @@ namespace Unit_Testing
         [Fact]
         public void Test_withdraw_less_than_zero()
         {
-            Assert.Equal(Program.balance, Program.Withdraw(-4));
+            Assert.Equal(Program.balance, Program.Withdraw(-99));
 
 
 
